@@ -5,13 +5,18 @@
   "name": "codenamelogo",
   "description": "",
   "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testMatch": ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"]
+  },
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "jest": "^29.7.0"
   },
   "keywords": [],
   "author": "",
